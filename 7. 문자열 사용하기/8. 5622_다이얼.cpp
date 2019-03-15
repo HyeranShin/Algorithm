@@ -18,7 +18,6 @@
 #include<iostream>
 #include<ios>
 #include<string>
-#include<map>
 
 using namespace std;
 
