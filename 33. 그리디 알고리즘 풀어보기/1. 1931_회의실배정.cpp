@@ -15,6 +15,7 @@
 */
 
 #include<iostream>
+#include<ios>
 #include<vector>
 #include<algorithm>
 
