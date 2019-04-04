@@ -5,10 +5,10 @@ https://www.acmicpc.net/problem/2455
 
 #include <iostream>
 #include <ios>
-#define STATION_CNT 4
 
 using namespace::std;
 
+const int STATION_CNT = 4;
 int perCnt[STATION_CNT][2], input;
 int getAnswer();
 
