@@ -1,7 +1,6 @@
 # BAEKJOON-ONLINE-JUDGE
-단계별로 풀어보기 (https://www.acmicpc.net/step)
+### 단계별로 풀어보기 (https://www.acmicpc.net/step)
 
-### 진도 
 - [x] 1. 입/출력 받아보기 (8)
 - [x] 2. 사칙연산 도전하기 (8)
 - [x] 3. for문 사용해보기 (12)
