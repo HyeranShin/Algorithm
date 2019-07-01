@@ -16,17 +16,17 @@ int main() {
 
 	cout << compare();
     
-    return 0;
+   	return 0;
 }
 
 string compare() {
 	if (A == B) {
 		return "==";
 	}
-    else if (A > B) {
-        return ">";
-    }
-    else {
-        return "<";
-    }
+	else if (A > B) {
+		return ">";
+	}
+	else {
+		return "<";
+	}
 }
