@@ -6,7 +6,7 @@ https://www.acmicpc.net/problem/5565
 #include <ios>
 using namespace std;
 
-int total, temp;;
+int total, temp;
 int getAnswer();
 
 int main() {
