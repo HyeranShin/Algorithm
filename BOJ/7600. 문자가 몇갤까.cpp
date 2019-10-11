@@ -22,7 +22,7 @@ int main() {
         if(input=="#") {
             break;
         }
-        memset(check, 0, 26);
+        memset(check, 0, sizeof(check));
         cout << getResult() << '\n';
     }
     
