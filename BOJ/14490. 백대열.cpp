@@ -19,7 +19,7 @@ int main() {
     
     string::size_type pos = input.find(':');
     string strN = input.substr(0, pos);
-    string strM = input.substr(pos+1, input.length());
+    string strM = input.substr(pos+1, input.length()-(pos+1));
 
     n = atoi(strN.c_str());
     m = atoi(strM.c_str());
