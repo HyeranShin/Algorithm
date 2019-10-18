@@ -5,7 +5,6 @@
  
 #include <iostream>
 #include <ios>
-#include <string>
 using namespace std;
 
 int main() {
@@ -17,11 +16,10 @@ int main() {
     
     string output = input;
     
-    string::iterator it;
-    for(it = input.rbegin(); it < input.rend(); it++) {
-        if(*it == 'C' || *it == 'A' || *it == 'M' || *it == 'B' || *it == 'R' || *it == 'I' || *it == 'D' || *it == 'G' || *it == 'E') {
-            output.erase(it);
-            it--;
+    for(int i=0; i<output.length(); i++) {
+        if(output[i] == 'C' || output[i] == 'A' || output[i] == 'M' || output[i] == 'B' || output[i] == 'R' || output[i] == 'I' || output[i] == 'D' || output[i] == 'G' || output[i] == 'E') {
+            output.erase(output.begin()+i);
+            i--;
         }
     }
     
