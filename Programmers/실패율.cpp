@@ -38,7 +38,7 @@ vector<int> solution(int N, vector<int> stages) {
         stageInfo.push_back({i+1, (double)noClearPlayerCnt[i]/clearPlayerCnt[i]});
     }
     
-    sort(stageInfo.begin(), stageInfo.end(), pred);
+    stable_sort(stageInfo.begin(), stageInfo.end(), pred);
     
     for(int i=0; i<N; i++) {
         answer.emplace_back(stageInfo[i].stage);
