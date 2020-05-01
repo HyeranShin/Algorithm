@@ -1,7 +1,6 @@
 //https://www.acmicpc.net/problem/15829
 
 #include <iostream>
-#include <math.h>
 #define MOD 1234567891
 
 using namespace std;
